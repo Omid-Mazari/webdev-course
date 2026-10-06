@@ -46,7 +46,7 @@
                 <h3>2. Academic Qualifications</h3>
 
                 <label>Academic Qualification: </label>
-                <select required>
+                <select style="width: fit-content;" required>
                     <option>Select an option</option>
                     <option>High School Diploma</option>
                     <option>Bachelor's Degree</option>
@@ -55,7 +55,15 @@
                 </select><br><br>
 
                 <label>Issuing Institution</label>
-                <input style="width: 210px;" type="text" placeholder="Please enter the Issuing Institution"><br><br>
+                <input style="width: 210px;" type="text" placeholder="Please enter the Issuing Institution" required><br><br>
+
+                <label>Graduation Date: </label>
+                <input style="width: 100px;" type="date" required><br><br>
+
+                <label>GPA: </label>
+                <input style="width: 150px;" type="number" min="0.0" max="4.0" step="0.01" placeholder="Please enter your GPA" required><br><br>
+
+                
 
                 <button>Submit</button>
                 <button>Save</button>
